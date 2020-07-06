@@ -1,5 +1,4 @@
 //I did it on wordpress, aditionaly using the plugin:HandL UTM Grabber. But you can get the job done eith out this plugin too.
-
 // On footer.php - This would do the job of saving the utm data when an user goes form page to page.
 
 <?php $utm_source = isset($_GET['utm_source']) ? $_GET['utm_source'] : ""; ?>
